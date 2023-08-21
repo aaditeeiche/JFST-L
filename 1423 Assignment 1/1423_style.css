@@ -1,0 +1,41 @@
+#header {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: solid 2px lightseagreen;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+#formelements {
+    background-color: lightcyan;
+    height: fit-content;
+    margin: 20px;
+    padding: 20px;
+    border: solid 1px gray;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.6;
+}
+
+#formelements form fieldset {
+    margin-bottom: 10px;
+}
+
+input,
+select {
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px;
+}
+
+input:invalid {
+    border: 2px solid grey;
+}
+
+input:valid {
+    border: 2px solid green;
+}
